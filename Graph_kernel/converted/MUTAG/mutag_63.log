@@ -1,0 +1,8 @@
+Number of added edges to make the graph Eulerian: 7
+(12, 15, 1)
+(2, 9, 1)
+(4, 6, 1)
+(6, 7, 1)
+(6, 8, 1)
+(15, 16, 1)
+(15, 17, 1)
