@@ -87,8 +87,7 @@ def main(argv):
     score_dict = {}
     files = sorted([f for f in os.listdir(rootDir) if len(f.split(".")) > 1 and f.split(".")[-1] == 'sgf'])
     score_list = []
-    # for i in range(1,len(files)):
-    for i in range(1,4):
+    for i in range(1,len(files)):
         if log_flag:
             print('---------------',i,'---------------')
         elif i%10 == 0:
